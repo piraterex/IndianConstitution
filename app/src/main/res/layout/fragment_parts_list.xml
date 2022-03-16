@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PartsListFragment">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:paddingTop="10dp">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/linearLayout"
+          android:gravity="center"
+          android:orientation="vertical"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+         <Button
+             android:id="@+id/btn_part1"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part1"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part2"/>
+
+         <Button
+             android:id="@+id/btn_part2"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part2"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part3"/>
+
+         <Button
+             android:id="@+id/btn_part3"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part3"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part4"/>
+
+         <Button
+             android:id="@+id/btn_part4"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part4"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part4"/>
+
+         <Button
+             android:id="@+id/btn_part5"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part5"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part6"/>
+
+         <Button
+             android:id="@+id/btn_part7"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part7"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part8"/>
+
+         <Button
+             android:id="@+id/btn_part8"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part8"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part9"/>
+
+         <Button
+             android:id="@+id/btn_part9"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part9"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part10"/>
+
+         <Button
+             android:id="@+id/btn_part10"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part10"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part11"/>
+
+         <Button
+             android:id="@+id/btn_part11"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part11"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part12"/>
+
+         <Button
+             android:id="@+id/btn_part12"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part12"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part13"/>
+
+         <Button
+             android:id="@+id/btn_part13"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part13"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part14"/>
+
+         <Button
+             android:id="@+id/btn_part14"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part14"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part15"/>
+
+         <Button
+             android:id="@+id/btn_part15"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part15"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part16"/>
+
+         <Button
+             android:id="@+id/btn_part16"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part17"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part17"/>
+
+         <Button
+             android:id="@+id/btn_part17"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part17"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part18"/>
+
+         <Button
+             android:id="@+id/btn_part19"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part19"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part20"/>
+
+         <Button
+             android:id="@+id/btn_part21"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part21"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part22"/>
+
+         <Button
+             android:id="@+id/btn_part22"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part22"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part23"/>
+
+         <Button
+             android:id="@+id/btn_part23"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part23"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part23"/>
+
+         <Button
+             android:id="@+id/btn_part24"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part24"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part25"/>
+
+         <Button
+             android:id="@+id/btn_part25"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part25"
+             android:textSize="30sp"
+             app:layout_constraintBottom_toTopOf="@+id/btn_part26"/>
+
+         <Button
+             android:id="@+id/btn_part26"
+             android:layout_width="350dp"
+             android:layout_height="80dp"
+             android:text="@string/title_activity_part26"
+             android:textSize="30sp" />
+
+
+      </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

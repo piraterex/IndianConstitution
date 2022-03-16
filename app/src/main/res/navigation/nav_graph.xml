@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.piraterex.coi.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_PreambleFragment"
+            app:destination="@id/PreambleFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_PartsFragment"
+            app:destination="@id/PartsFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PreambleFragment"
+        android:name="com.piraterex.coi.PreambleFragment"
+        android:label="@string/preamble"
+        tools:layout="@layout/fragment_preamble">
+
+        <action
+            android:id="@+id/action_PreambleFragment_to_HomeFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PartsFragment"
+        android:name="com.piraterex.coi.PartsFragment"
+        android:label="@string/parts"
+        tools:layout="@layout/fragment_parts">
+
+        <action
+            android:id="@+id/action_PartsFragment_to_PartsListFragment"
+            app:destination="@id/PartsListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.piraterex.coi.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.piraterex.coi.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_HomeFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>

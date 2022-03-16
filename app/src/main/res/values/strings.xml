@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Indian Constitution</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="home">Home</string>
+
+    <string name="preamble">Preamble</string>
+    <string name="parts">Parts</string>
+    <string name="schedules">Schedules</string>
+    <string name="amendments">Amendments</string>
+
+    <string name="preamble_text">
+        <b>WE, THE PEOPLE OF INDIA,</b> having solemnly resolved to constitute India into a <b>SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC</b>[1] and to secure to all its citizens:\n\n
+        <b>JUSTICE,</b> social, economic and political;\n\n
+        <b>LIBERTY</b> of thought , expression, belief, faith and worship;\n\n
+        <b>EQUALITY</b> of status and of opportunity; and to promote among them all\n\n
+        <b>FRATERNITY</b> assuring the dignity of the individual and the unity and integrity of the Nation[2];\n\n
+        <b>IN OUR CONSTITUENT ASSEMBLY</b> this twenty-sixth day of November, 1949, do <b>HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION.</b>\n\n
+        [1]<i>Subs. by the Constitution (Forty-second Amendment) Act,1976,s. 2, for "SOVEREIGN DEMOCRATIC REPUBLIC" (w.e.f. 3-1-1977</i>\n
+        [2] <i>Subs. by s. 2, ibid., for "unity of the nation" (w.e.f. 3-1-1977).</i>
+    </string>
+
+
+    <string name="part1"><b>Part 1 (Art. 1 to 4)</b>\n The Union and its Territories</string>
+    <string name="part2"><b>Part 2 (Art. 5 to 11)</b>\n Citizenship</string>
+    <string name="part3"><b>Part 3 (Art. 12 to 35)</b>\n Fundamental Rights</string>
+    <string name="part4"><b>Part 4 (Art. 36 to 51)</b>\n Directive Principles of State Policy</string>
+    <string name="part4A"><b>Part 4A (Art. 51A)</b>\n Fundamental Duties</string>
+    <string name="part5"><b>Part 5 (Art. 52 to 151)</b>\n The Union</string>
+    <string name="part6"><b>Part 6 (Art. 152 to 237)</b>\n The States</string>
+    <string name="part7"><b>Part 7 (Repealed)</b>\n The States in Part B of First Schedule</string>
+    <string name="part8"><b>Part 8 (Art. 239 to 242)</b>\n The Union Territories</string>
+    <string name="part9"><b>Part 9 (Art. 243 to 243O)</b>\n The Panchayats</string>
+    <string name="part9A"><b>Part 9A (Art. 243P to 243ZG)</b>\n The Municipalities</string>
+    <string name="part9B"><b>Part 9B (Art. 243ZH to 243ZT)</b>\n The Co-Operative Societies</string>
+    <string name="part10"><b>Part 10 (Art. 244 to 244A)</b>\n The Schedules and Tribal Areas</string>
+    <string name="part11"><b>Part 11 (Art. 245 to 263)</b>\n Relations between the Union and the States</string>
+    <string name="part12"><b>Part 12 (Art. 264 to 300A)</b>\n Finance, Property, Contracts and Suits</string>
+    <string name="part13"><b>Part 13 (Art. 301 to 307)</b>\n Trade, Commerce and Intercourse within the territory of India</string>
+    <string name="part14"><b>Part 14 (Art. 308 to 323)</b>\n Services Under the Union and the States</string>
+    <string name="part14A"><b>Part 14A (Art. 323A to 323B)</b>\n Tribunals</string>
+    <string name="part15"><b>Part 15 (Art. 324 to 329A)</b>\n Elections</string>
+    <string name="part16"><b>Part 16 (Art. 330 to 342)</b>\n Special provisions relating to certain classes</string>
+    <string name="part17"><b>Part 17 (Art. 343 to 351)</b>\n Official Language</string>
+    <string name="part18"><b>Part 18 (Art. 352 to 360)</b>\n Emergency Provisions</string>
+    <string name="part19"><b>Part 19 (Art. 361 to 367)</b>\n Miscellaneous</string>
+    <string name="part20"><b>Part 20 (Art. 368)</b>\n Amendment of the Constitution</string>
+    <string name="part21"><b>Part 21 (Art. 369 to 392)</b>\n Temporary, Transitional and Special Provisions</string>
+    <string name="part22"><b>Part 22 (Art. 393 to 395)</b>\n Short Title, Commencement, Authoritativre Text in Hindi and Repeals</string>
+    <string name="title_activity_part1">Part 1</string>
+    <string name="title_activity_part2">Part 2</string>
+    <string name="title_activity_part3">Part 3</string>
+    <string name="title_activity_part4">Part 4</string>
+    <string name="title_activity_part5">Part 4A</string>
+    <string name="title_activity_part6">Part 5</string>
+    <string name="title_activity_part7">Part 6</string>
+    <string name="title_activity_part8">Part 7</string>
+    <string name="title_activity_part9">Part 8</string>
+    <string name="title_activity_part10">Part 9</string>
+    <string name="title_activity_part11">Part 9A</string>
+    <string name="title_activity_part12">Part 9B</string>
+    <string name="title_activity_part13">Part 10</string>
+    <string name="title_activity_part14">Part 11</string>
+    <string name="title_activity_part15">Part 12</string>
+    <string name="title_activity_part16">Part 13</string>
+    <string name="title_activity_part17">Part 14</string>
+    <string name="title_activity_part18">Part 14A</string>
+    <string name="title_activity_part19">Part 15</string>
+    <string name="title_activity_part20">Part 16</string>
+    <string name="title_activity_part21">Part 17</string>
+    <string name="title_activity_part22">Part 18</string>
+    <string name="title_activity_part23">Part 19</string>
+    <string name="title_activity_part24">Part 20</string>
+    <string name="title_activity_part25">Part 21</string>
+    <string name="title_activity_part26">Part 22</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+</resources>
